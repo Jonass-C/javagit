@@ -1,0 +1,4 @@
+Git: https://git-scm.com/
+GitHub: https://github.com/Jonass-C
+
+Git Bash: cd, dir, status, commit, add, clone, push
