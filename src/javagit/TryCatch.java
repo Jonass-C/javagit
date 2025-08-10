@@ -2,7 +2,7 @@ package javagit;
 
 import javax.swing.JOptionPane;
 
-public class Javagit {
+public class TryCatch {
 
     public static void main(String[] args) {
         
@@ -65,7 +65,6 @@ public class Javagit {
             this.numerador = numerador;
             this.denominador = denominador;
         }
-        
     }
     
     public static class DenominadorZeroException extends Exception{
@@ -76,7 +75,6 @@ public class Javagit {
             super(message);
             this.denominador = denominador;
         }
-        
     }
     
 }

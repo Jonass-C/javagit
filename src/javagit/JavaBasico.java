@@ -3,7 +3,7 @@ package javagit;
 import java.util.Scanner;
 import java.util.Date;
 
-public class NewClass {
+public class JavaBasico {
     
     public static void main(String[] args){
         
@@ -88,7 +88,6 @@ public class NewClass {
         public void mudarCanal(int numCanal){
             canal = numCanal;
         }
-        
     }
     
     public static void cumprimentar(int hora){
@@ -104,7 +103,6 @@ public class NewClass {
         }
         else
             System.out.println("Horário inválido.");
-        
     }
     
     public static void calcularEmprestimoFinal(double valor, int parcelas){
@@ -129,7 +127,6 @@ public class NewClass {
         double area = lado * lado;
         
         return area;
-        
     }
     
     public static double calcularArea(double base, double altura){
@@ -137,7 +134,6 @@ public class NewClass {
         double area = base * altura;
         
         return(area);
-        
     }
     
     public static double calcularArea(double baseMaior, double baseMenor, double altura){
@@ -145,7 +141,6 @@ public class NewClass {
         double area = ((baseMaior + baseMenor) * altura) / 2;
         
         return(area);
-        
     }
     
     public static class Carro {
@@ -193,9 +188,6 @@ public class NewClass {
             System.out.println("O pre~p para encher o tanque é de R$" + valorCombustivel * capacidadeTanque);
             
         }
-        
-        
-        
     }
     
     public static class Veiculo{
@@ -272,8 +264,8 @@ public class NewClass {
     // Dependência
     public static class Compra{
         void finalizar(Cupom cupom){
+            
         }
-        
     }
     
     public static interface OperacaoMatematica{
@@ -304,7 +296,6 @@ public class NewClass {
         public  float divisao(int x, int y){
             return(x / y);
         }
-        
     }
     
 }
