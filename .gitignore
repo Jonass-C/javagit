@@ -1,20 +1,21 @@
 /build/
 /nbproject/private/
+/dist/
+/nbbuild/
+/nbdist/
+/out/
+/target/
 
-### Java ###
-# Compiled class file
-*.class
+/**/*.class
+/**/*.log
+/**/*.ctxt
+/**/.mtj.tmp/
+/**/*.xml
+/**/*.iml
+/**/.idea/
+/**/*.prefs
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Arquivos de pacotes Java
 *.jar
 *.war
 *.nar
@@ -23,18 +24,11 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Logs de crash da JVM
 hs_err_pid*
 replay_pid*
 
-### NetBeans ###
-**/nbproject/private/
+# NetBeans específicos
 **/nbproject/Makefile-*.mk
 **/nbproject/Package-*.bash
-build/
-nbbuild/
-dist/
-nbdist/
 .nb-gradle/
-
-# End of https://www.toptal.com/developers/gitignore/api/java,netbeans
