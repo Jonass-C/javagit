@@ -1,21 +1,29 @@
+# Ignorar pastas de build e dist
 /build/
-/nbproject/private/
 /dist/
 /nbbuild/
 /nbdist/
 /out/
 /target/
 
+# Ignorar pasta NetBeans completa
+/nbproject/
+
+# Ignorar arquivos privados do NetBeans
+/nbproject/private/
+
+# Ignorar arquivos compilados e logs
 /**/*.class
 /**/*.log
 /**/*.ctxt
 /**/.mtj.tmp/
-/**/*.xml
+
 /**/*.iml
 /**/.idea/
 /**/*.prefs
 
-# Arquivos de pacotes Java
+# Ignorar arquivos XML, JARs e pacotes Java
+/**/*.xml
 *.jar
 *.war
 *.nar
@@ -23,6 +31,10 @@
 *.zip
 *.tar.gz
 *.rar
+
+# Ignorar arquivos específicos de build
+/build.xml
+/manifest.mf
 
 # Logs de crash da JVM
 hs_err_pid*
